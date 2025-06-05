@@ -95,6 +95,15 @@ npm run dev
 
 The server will be available at `http://localhost:3000`
 
+## Live Demo
+
+The API is deployed and available at:
+**https://bitespeed-backend-task-u4ml.onrender.com**
+
+You can test the endpoints using this base URL. For example:
+- Health check: `GET https://bitespeed-backend-task-u4ml.onrender.com/`
+- Contact identification: `POST https://bitespeed-backend-task-u4ml.onrender.com/identify`
+
 ## API Endpoints
 
 ### POST /identify
