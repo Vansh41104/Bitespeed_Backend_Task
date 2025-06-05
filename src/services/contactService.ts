@@ -1,5 +1,5 @@
 import prisma from '../utils/prismaClient';
-import { Contact } from '../generated/prisma';
+import { Contact } from '@prisma/client';
 import { IdentifyRequestPayload, ContactResponse } from '../types';
 
 const LinkPrecedence = {
