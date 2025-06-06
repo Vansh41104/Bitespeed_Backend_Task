@@ -18,7 +18,7 @@ This service helps identify and link contacts who may have provided different co
 
 - **Runtime**: Node.js with TypeScript
 - **Framework**: Express.js
-- **Database**: SQLite with Prisma ORM
+- **Database**: Postgresql with Prisma ORM
 - **Validation**: Custom email and phone number validation
 - **Architecture**: Clean architecture with controllers, services, and data layers
 
@@ -58,7 +58,7 @@ prisma/
 3. **Set up environment variables**
    Create a `.env` file in the root directory:
    ```env
-   DATABASE_URL="file:./prisma/dev.db"
+   DATABASE_URL="postgresql URL"
    PORT=3000
    ```
 
